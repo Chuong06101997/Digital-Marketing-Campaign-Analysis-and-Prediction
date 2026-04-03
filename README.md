@@ -45,7 +45,9 @@ Making decisions to continue or stop campaigns based on EV.
 
 ## Decision Logic
 The core decision is based on Expected Value (EV):
+
 EV=P(convert)×LTV−Cost
+
 If EV > 0 → Continue or increase ad spend
 If EV < 0 → Stop the campaign to avoid losses
 This ensures that decisions are not based solely on prediction accuracy, but on financial impact.
