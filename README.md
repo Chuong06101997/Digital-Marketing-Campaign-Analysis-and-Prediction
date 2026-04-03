@@ -26,3 +26,20 @@ Giảm chi tiêu cho các chiến dịch kém hiệu quả
 Tăng ROI bằng cách tập trung ngân sách vào các nhóm khách hàng có giá trị cao
 Ngoài ra, hệ thống sẽ được kiểm tra định kỳ bằng cách so sánh xác suất dự đoán với kết quả thực tế nhằm đảm bảo độ tin cậy của mô hình.
 Về lâu dài, giải pháp này giúp công ty chuyển từ cách vận hành bị động sang chủ động, tối ưu hóa hiệu quả marketing dựa trên dữ liệu.
+
+## Approach (Pipeline)
+The solution follows a data-driven pipeline:
+Data preprocessing and cleaning to ensure data quality
+Feature engineering from user behavior, marketing interaction, and customer profile
+Training a classification model (Logistic Regression / XGBoost) to predict conversion probability
+Applying probability calibration to ensure predicted probabilities reflect real-world outcomes
+Estimating customer Lifetime Value (LTV) using proxy features such as income and past purchases
+Calculating Expected Value (EV) by combining predicted conversion probability, LTV, and advertising cost
+Making decisions to continue or stop campaigns based on EV.
+
+## Decision Logic
+The core decision is based on Expected Value (EV):
+EV=P(convert)×LTV−Cost
+If EV > 0 → Continue or increase ad spend
+If EV < 0 → Stop the campaign to avoid losses
+This ensures that decisions are not based solely on prediction accuracy, but on financial impact.
