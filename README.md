@@ -29,12 +29,18 @@ Về lâu dài, giải pháp này giúp công ty chuyển từ cách vận hành
 
 ## Approach (Pipeline)
 The solution follows a data-driven pipeline:
-Data preprocessing and cleaning to ensure data quality
-Feature engineering from user behavior, marketing interaction, and customer profile
-Training a classification model (Logistic Regression / XGBoost) to predict conversion probability
-Applying probability calibration to ensure predicted probabilities reflect real-world outcomes
-Estimating customer Lifetime Value (LTV) using proxy features such as income and past purchases
-Calculating Expected Value (EV) by combining predicted conversion probability, LTV, and advertising cost
+Data preprocessing and cleaning to ensure data quality.
+
+Feature engineering from user behavior, marketing interaction, and customer profile.
+
+Training a classification model (Logistic Regression / XGBoost) to predict conversion probability.
+
+Applying probability calibration to ensure predicted probabilities reflect real-world outcomes.
+
+Estimating customer Lifetime Value (LTV) using proxy features such as income and past purchases.
+
+Calculating Expected Value (EV) by combining predicted conversion probability, LTV, and advertising cost.
+
 Making decisions to continue or stop campaigns based on EV.
 
 ## Decision Logic
