@@ -13,7 +13,8 @@ A probabilistic decision framework was implemented:
 2. **Probability Calibration:** Platt Scaling was applied to align predicted probabilities with real-world outcomes  
 3. **EV Logic:** Expected Value was calculated using:
 
-   $EV = (P \times LTV) - \text{Cost}$
+   <img width="270" height="43" alt="image" src="https://github.com/user-attachments/assets/ec4773ed-5c8a-4e75-949a-eb06b614922a" />
+
 
 ---
 
