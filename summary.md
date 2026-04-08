@@ -1,64 +1,44 @@
-# 📊 Ads Optimization using Expected Value
+#  Ads Optimization: Maximizing Marketing Efficiency via Expected Value
 
-## 🎯 Problem
-Digital marketing campaigns often waste budget by targeting customers who are unlikely to convert, leading to inefficient spending.
-
----
-
-## 🧠 Approach
-A data-driven approach was applied:
-
-- Built a classification model to predict customer conversion probability (P(convert))
-- Calibrated predicted probabilities to align with real-world outcomes
-- Estimated Customer Lifetime Value (LTV)
-- Calculated Expected Value (EV) for each customer
+##  Context & Business Need
+In digital marketing, a significant portion of the budget is often wasted on customers who are unlikely to convert.  
+This project aims to identify high-value customers and eliminate unprofitable segments to optimize marketing spend.
 
 ---
 
-## 💰 Decision Framework
+##  Methodology (The Approach)
+A probabilistic decision framework was implemented:
 
-Expected Value formula:
+1. **Conversion Model:** Logistic Regression model to estimate $P(\text{convert})$  
+2. **Probability Calibration:** Platt Scaling was applied to align predicted probabilities with real-world outcomes  
+3. **EV Logic:** Expected Value was calculated using:
 
-EV = P(convert) × LTV − Cost
-
-- EV > 0 → KEEP (target customer)
-- EV < 0 → CUT (stop spending)
-
----
-
-## 📊 Result
-
-- Model achieved AUC ≈ 0.73 (reasonable performance)
-- Identified unprofitable customer segments
-- Recommended cutting low-value customers to reduce wasted ad spend
+   $EV = (P \times LTV) - \text{Cost}$
 
 ---
 
-## ⚖️ Business Strategy
-
-Instead of removing all low-value customers:
-
-- 80% of customers with negative EV are excluded
-- 20% are retained as a control group
-
-This allows continuous validation and reduces business risk.
+##  Key Technical Insights
+- Most features show weak individual correlation with conversion, indicating that customer behavior is driven by multiple combined signals  
+- Behavioral features such as engagement and purchase history contribute more than demographic variables  
+- Model performance achieved AUC ≈ 0.73, sufficient for reliable probability estimation  
 
 ---
 
-## 🚀 Impact
+##  Business Strategy: The 80/20 Control Group
+To mitigate decision risk, not all low-value customers are removed:
 
-- Improves marketing efficiency
-- Reduces unnecessary ad spend
-- Enables data-driven decision making
+- 80% of customers with negative EV are excluded  
+- 20% are retained as a control group  
+
+This allows:
+
+- Continuous validation of model predictions  
+- Detection of potential misclassification  
+- Iterative model improvement over time  
 
 ---
 
-## 💡 Key Insight
-
-Customer conversion is driven by a combination of behavioral signals rather than any single feature.
-
----
-
-## 🔗 Project Link
-
-[GitHub Repository](your_link_here)
+##  Business Impact
+- Reduces wasted advertising spend  
+- Improves targeting efficiency  
+- Enables data-driven marketing decisions based on expected financial return  
