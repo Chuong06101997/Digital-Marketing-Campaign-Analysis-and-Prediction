@@ -1,7 +1,8 @@
 # Expected Value Framework for Marketing Budget Reduction Decisions
 
-**Prepared for:** Chief Marketing Officer (CMO)
+
 **Prepared by:** Data Analytics Team
+
 **Project Type:** Decision-Support Analytics Framework
 
 ---
