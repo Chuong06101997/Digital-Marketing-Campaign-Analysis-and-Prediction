@@ -136,9 +136,7 @@ The model demonstrates meaningful predictive power while remaining interpretable
 
 Expected Value combines conversion probability and customer value into a single business metric.
 
-[
-EV = P(Convert) \times LTV - CAC
-]
+<img width="785" height="88" alt="image" src="https://github.com/user-attachments/assets/29eca8ba-f0d6-4320-a6a5-ee5f0c1688e5" />
 
 Where:
 
