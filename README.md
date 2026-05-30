@@ -1,7 +1,9 @@
 # Marketing Budget Optimization via Expected Value Analysis
 
 **Role:** Data Analyst
+
 **Domain:** Digital Marketing
+
 **Project Type:** Decision-Support Framework
 
 ---
