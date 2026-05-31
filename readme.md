@@ -178,6 +178,8 @@ Therefore, customer-level EV scores were aggregated into:
 
 This produced campaign-level performance rankings that can be used directly for budget prioritization.
 
+<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/e991ee3c-16fb-4de4-8f52-42a840e9d352" />
+
 ---
 
 # Key Findings
