@@ -12,14 +12,14 @@ To support more informed budget decisions, this project develops an Expected Val
 
 ## Key Findings
 
+<img width="932" height="560" alt="image" src="https://github.com/user-attachments/assets/6858e6e5-3fb7-4153-a7be-7ca5c1993a8b" />
+
+
 ### Conversion campaigns consistently delivered the strongest economic value
 
 Across all campaign channels, Conversion-focused campaigns achieved the highest Expected Value scores under every acquisition-cost scenario tested.
 
 The top-performing campaign groups were:
-
-<img width="932" height="560" alt="image" src="https://github.com/user-attachments/assets/d85043e4-01ad-402b-9c72-0f6efd4c1a98" />
-
 
 * PPC | Conversion
 * SEO | Conversion
