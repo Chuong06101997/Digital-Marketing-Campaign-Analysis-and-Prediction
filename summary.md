@@ -18,6 +18,9 @@ Across all campaign channels, Conversion-focused campaigns achieved the highest 
 
 The top-performing campaign groups were:
 
+<img width="932" height="560" alt="image" src="https://github.com/user-attachments/assets/d85043e4-01ad-402b-9c72-0f6efd4c1a98" />
+
+
 * PPC | Conversion
 * SEO | Conversion
 * Social Media | Conversion
