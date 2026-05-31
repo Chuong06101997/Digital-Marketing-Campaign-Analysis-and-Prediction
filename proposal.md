@@ -75,6 +75,29 @@ This project aims to:
 
 **Records:** 8,000 customers
 
+link dataset : https://www.kaggle.com/code/devraai/digital-marketing-campaign-analysis-and-prediction/notebook
+
+| Column | Description |
+|---|---|
+| `CustomerID` | Unique identifier for each customer |
+| `Age` | Customer age in years |
+| `Gender` | Customer gender (Male / Female) |
+| `Income` | Annual household income in USD |
+| `CampaignChannel` | Advertising channel used to reach the customer (Email, PPC, SEO, Referral, Social Media) |
+| `CampaignType` | Marketing objective of the campaign (Awareness, Consideration, Conversion, Retention) |
+| `AdSpend` | Advertising budget allocated to the customer in USD |
+| `ClickThroughRate` | Ratio of users who clicked on the ad relative to total impressions |
+| `ConversionRate` | Ratio of conversions relative to total interactions at the campaign level |
+| `WebsiteVisits` | Number of times the customer visited the website |
+| `PagesPerVisit` | Average number of pages viewed per website visit |
+| `TimeOnSite` | Average time spent on the website per visit, in minutes |
+| `SocialShares` | Number of times the customer shared campaign content on social media |
+| `EmailOpens` | Number of marketing emails opened by the customer |
+| `EmailClicks` | Number of links clicked within marketing emails |
+| `PreviousPurchases` | Total number of purchases made by the customer prior to this campaign |
+| `LoyaltyPoints` | Accumulated loyalty points reflecting customer engagement history |
+| `Conversion` | Target variable — whether the customer converted (1 = Yes, 0 = No) |
+
 **Available Information**
 
 * Campaign Channel
