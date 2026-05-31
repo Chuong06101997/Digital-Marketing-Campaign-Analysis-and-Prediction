@@ -1,5 +1,8 @@
 # Marketing Budget Optimization via Expected Value Analysis
 
+<img width="2560" height="1681" alt="image" src="https://github.com/user-attachments/assets/d81df020-418b-4da4-8416-2ddca2e4e4d4" />
+
+
 **Role:** Data Analyst
 
 **Domain:** Digital Marketing
