@@ -1,5 +1,8 @@
 # Executive Summary
 
+<img width="850" height="450" alt="image" src="https://github.com/user-attachments/assets/4017f713-3330-4b3c-8511-fd6d24d575d7" />
+
+
 ## Business Context
 
 Economic uncertainty has forced the company to reduce marketing expenditure. The challenge is not whether to cut the budget, but where to cut it without damaging future revenue generation.
